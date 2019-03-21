@@ -1,5 +1,7 @@
 package agencja;
 
+import java.util.Objects;
+
 public class UbezpieczonyIMPL extends AbstractCzlowiek implements Ubezpieczony {
 
     Samochod samochod;
@@ -19,4 +21,6 @@ public class UbezpieczonyIMPL extends AbstractCzlowiek implements Ubezpieczony {
     public Samochod getPojazd() {
         return samochod;
     }
+
+
 }
